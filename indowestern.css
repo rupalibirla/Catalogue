@@ -1,0 +1,30 @@
+/** @format */
+
+.coat-img {
+  margin: 10px 0;
+}
+.coat-img img {
+  height: 100%;
+  width: 100%;
+}
+.catagories-heading {
+  text-align: center;
+  font-weight: 500;
+  margin-top: 50px;
+}
+#overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+}
+
+#overlay img {
+  max-width: 90%;
+  max-height: 90%;
+}

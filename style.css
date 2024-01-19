@@ -1,0 +1,206 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*font-family: Inter;*/
+}
+body {
+  overflow-x: hidden;
+}
+/* header css */
+.navbar-background-color {
+  background-color: #981d1f;
+}
+.nav-item {
+  padding: 0 10px;
+}
+.nav-link {
+  color: white;
+  font-family: inter;
+}
+.nav-link:hover {
+  color: white;
+}
+.navbar-nav .nav-link.show {
+  color: white;
+}
+.logo-img {
+  margin-left: 50px;
+}
+button.navbar-toggler {
+  background-color: white;
+}
+.heading {
+  text-align: center;
+  font-family: inter;
+}
+.heading-paragraph {
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  color: #787878;
+  margin-top: 20px;
+}
+.main {
+  background-image: url(images/main\ background.png);
+  height: 83vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-text h1 {
+  font-family: Inter;
+  font-size: 50px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+.main-text p {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+}
+.offer {
+  text-align: center;
+  padding: 70px 0;
+}
+.offer-line {
+  margin-top: 16px;
+}
+.offer-para {
+  margin-top: 1rem;
+}
+.dot-img {
+  margin-top: 30px;
+}
+.horizontal-line {
+  width: 200px;
+  margin: auto;
+}
+hr {
+  width: 100px;
+  margin: auto;
+  /* margin-top: 15px; */
+}
+
+.services-btn {
+  width: 231px;
+  height: 49px;
+  background-color: #981d1f;
+  border-radius: 30px;
+  border-style: dotted;
+  border-color: white;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  margin-top: 30px;
+}
+.our-works {
+  /* text-align: center; */
+  padding: 70px 0;
+}
+
+.meet-tailor {
+  padding: 70px 0;
+}
+
+.text-paragraph {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+}
+.service-button {
+  text-align: center;
+}
+.card-title {
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.date {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: #787878;
+}
+.card-text {
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+}
+.our-news {
+  padding-top: 70px;
+}
+.footer {
+  margin-top: 100px;
+  background-color: #981d1f;
+  color: white;
+  padding: 100px 50px;
+}
+.footer h3 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+}
+li {
+  list-style-type: none;
+}
+ul {
+  padding-left: 5px;
+}
+.location {
+  display: flex;
+}
+.location-img {
+  margin-right: 10px;
+}
+/***************** media query****************/
+@media screen and (max-width: 1024px) and (min-width: 601px) {
+  .main {
+    height: 40vh;
+  }
+  .blazer-img img {
+    width: 223px;
+  }
+  .tailor-img img {
+    width: 230px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .logo-img {
+    margin-left: 20px;
+  }
+  .main {
+    height: 55vh;
+  }
+  .main-text h1 {
+    font-size: 30px;
+  }
+  .blazer-img img {
+    width: 223px;
+    margin-top: 10px;
+  }
+  .tailor-img img {
+    width: 230px;
+    margin-top: 10px;
+  }
+  .blazer {
+    justify-content: center;
+    display: flex;
+  }
+  .card {
+    margin-top: 10px;
+  }
+}
